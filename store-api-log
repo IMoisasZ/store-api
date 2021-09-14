@@ -1,0 +1,189 @@
+2021-09-06T13:10:15.464Z [store-api] error undefined undefined - undefined
+2021-09-06T13:10:29.138Z [store-api] error undefined undefined - undefined
+2021-09-06T13:15:38.449Z [store-api] error POST  - Name, CPF, Phone e Address são obrigatórios.
+2021-09-06T13:21:04.817Z [store-api] error POST  - res.senc is not a function
+2021-09-06T13:21:26.250Z [store-api] error POST  - loggers is not defined
+2021-09-06T13:52:13.126Z [store-api] error POST  - clientService.clientService is not a function
+2021-09-06T13:54:18.095Z [store-api] error POST  - clientService.clientService is not a function
+2021-09-06T13:55:17.066Z [store-api] error POST  - null value in column "address" violates not-null constraint
+2021-09-06T13:56:31.507Z [store-api] error POST  - loggers is not defined
+2021-09-06T13:59:55.490Z [store-api] error POST  - loggers is not defined
+2021-09-06T14:00:28.772Z [store-api] error POST  - loggers is not defined
+2021-09-06T14:00:29.557Z [store-api] error POST  - loggers is not defined
+2021-09-06T14:11:19.319Z [store-api] error POST  - loggers is not defined
+2021-09-06T14:12:18.731Z [store-api] error POST  - loggers is not defined
+2021-09-06T14:13:24.559Z [store-api] error POST  - aaaa
+2021-09-06T14:27:25.337Z [store-api] info GET /client
+2021-09-06T14:41:24.040Z [store-api] info GET /client
+2021-09-06T14:46:07.562Z [store-api] info GET /client
+2021-09-06T14:55:20.963Z [store-api] info GET /client
+2021-09-06T14:56:10.319Z [store-api] info DELETE /client
+2021-09-06T14:56:27.190Z [store-api] info GET /client
+2021-09-06T14:56:35.391Z [store-api] info DELETE /client
+2021-09-06T14:56:39.950Z [store-api] info GET /client
+2021-09-06T14:57:38.913Z [store-api] info DELETE /client
+2021-09-06T14:57:44.096Z [store-api] info GET /client
+2021-09-06T14:58:27.545Z [store-api] info DELETE /client
+2021-09-06T15:33:25.551Z [store-api] info POST /cliente - {"client_id":8,"name":"moisas123","cpf":"308.755.418-95","phone":"11 95484-2557","email":"mopri08@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}
+2021-09-06T15:34:08.822Z [store-api] info GET /client
+2021-09-06T15:34:41.997Z [store-api] error PUT  - invalid input syntax for integer: "{"client_id":8,"name":"Moisés Santos","cpf":"308.755.418-95","phone":"11 95484-2557","email":"mopri08@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}"
+2021-09-06T15:36:57.018Z [store-api] info GET /client
+2021-09-06T15:37:09.682Z [store-api] error PUT  - invalid input syntax for integer: "{"client_id":8,"name":"Moisés Santos","cpf":"308.755.418-95","phone":"11 95484-2557","email":"mopri08@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}"
+2021-09-06T15:37:40.682Z [store-api] error PUT  - syntax error at or near "address"
+2021-09-06T15:43:38.213Z [store-api] error PUT  - syntax error at or near "RETURING"
+2021-09-06T15:44:26.718Z [store-api] info PUT /client - {"client_id":8,"name":"Moisés Santos","cpf":"308.755.418-95","phone":"11 95484-2557","email":"mopri08@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}
+2021-09-06T15:45:30.191Z [store-api] info PUT /client - undefined
+2021-09-06T16:15:35.849Z [store-api] error POST  - null value in column "cnpj" violates not-null constraint
+2021-09-06T16:16:14.268Z [store-api] info POST /suplier - {"supplier_id":2,"name":"Injetaq Industria e Comércio Ltda","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-06T16:16:37.566Z [store-api] info POST /suplier - {"supplier_id":3,"name":"Injetaq Industria e Comércio Ltda","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-06T16:16:38.258Z [store-api] info POST /suplier - {"supplier_id":4,"name":"Injetaq Industria e Comércio Ltda","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-06T16:16:39.126Z [store-api] info POST /suplier - {"supplier_id":5,"name":"Injetaq Industria e Comércio Ltda","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-06T16:19:01.321Z [store-api] error PUT  - relation "supliers" does not exist
+2021-09-06T16:19:37.708Z [store-api] info PUT /supplier - {"supplier_id":2,"name":"Injetaq","cnpj":"67.117.705/0001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema/SP"}
+2021-09-06T16:19:52.062Z [store-api] info GET /suppliers
+2021-09-06T16:20:14.906Z [store-api] error GET  - SupplierService.getSuplier is not a function
+2021-09-06T16:20:59.342Z [store-api] info GET /supplier
+2021-09-06T16:21:12.451Z [store-api] info DELETE /supplier
+2021-09-06T16:21:16.777Z [store-api] info DELETE /supplier
+2021-09-06T16:21:19.794Z [store-api] info DELETE /supplier
+2021-09-06T16:21:22.904Z [store-api] info DELETE /supplier
+2021-09-06T16:21:34.315Z [store-api] info GET /suppliers
+2021-09-07T11:51:12.951Z [store-api] info POST /suplier - {"supplier_id":6,"name":"Injetaq Industria e Comércio Ltda","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-07T11:51:18.871Z [store-api] info POST /suplier - {"supplier_id":7,"name":"Injetaq","cnpj":"67.117.705/001-64","phone":"11 4070-5656","email":"moises@injetaq.com.br","address":"Rua Capistrano de Abreu, 306 - Jd. Fraternal - Diadema / SP"}
+2021-09-07T11:52:41.817Z [store-api] error POST  - column "descrition" of relation "products" does not exist
+2021-09-07T11:53:18.684Z [store-api] error POST  - column "descripition" of relation "products" does not exist
+2021-09-07T11:55:51.686Z [store-api] info POST /product - {"product_id":1,"supplier_id":7,"name":"Capa de Proteção","description":"Produto em poliuretano","value":"1.23","stock":6000}
+2021-09-07T11:56:43.791Z [store-api] info POST /product - {"product_id":2,"supplier_id":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.98","stock":1200}
+2021-09-07T11:58:28.360Z [store-api] info GET /products
+2021-09-07T11:59:16.372Z [store-api] info PUT /product - {"product_id":1,"supplier_id":7,"name":"Capa de Proteção 12994","description":"Produto em poliuretano","value":"1.23","stock":6000}
+2021-09-07T11:59:23.540Z [store-api] info GET /products
+2021-09-07T11:59:37.466Z [store-api] info GET /product
+2021-09-07T11:59:49.547Z [store-api] info DELETE /product
+2021-09-07T11:59:55.486Z [store-api] info GET /products
+2021-09-07T11:59:56.635Z [store-api] info GET /products
+2021-09-07T11:59:57.026Z [store-api] info GET /products
+2021-09-07T11:59:57.330Z [store-api] info GET /products
+2021-09-07T11:59:57.534Z [store-api] info GET /products
+2021-09-07T12:12:54.361Z [store-api] error POST  - O supplier_id informdo existe!
+2021-09-07T12:13:07.154Z [store-api] info POST /product - {"product_id":3,"supplier_id":7,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.98","stock":1200}
+2021-09-07T12:14:25.921Z [store-api] error PUT  - O supplier_id informdo existe!
+2021-09-07T12:14:36.143Z [store-api] info PUT /product - undefined
+2021-09-07T12:14:40.955Z [store-api] info PUT /product - undefined
+2021-09-07T12:14:54.062Z [store-api] info PUT /product - undefined
+2021-09-07T12:15:09.630Z [store-api] info GET /products
+2021-09-07T12:15:45.775Z [store-api] info PUT /product - {"product_id":2,"supplier_id":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.98","stock":1200}
+2021-09-07T12:42:03.640Z [store-api] error POST  - Client ID, Supplier ID, Value e Date são obrigatórios.
+2021-09-07T12:42:09.311Z [store-api] error POST  - Client ID, Supplier ID, Value e Date são obrigatórios.
+2021-09-07T12:43:05.436Z [store-api] info GET /sales
+2021-09-07T12:43:48.482Z [store-api] error POST  - Client ID, Supplier ID, Value e Date são obrigatórios.
+2021-09-07T12:44:05.031Z [store-api] info GET /products
+2021-09-07T12:44:19.469Z [store-api] info POST /client - {"client_id":9,"name":"moisas123","cpf":"308.755.418-95","phone":"11 95484-2557","email":"mopri08@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}
+2021-09-07T12:44:24.898Z [store-api] info GET /clients
+2021-09-07T12:44:51.849Z [store-api] error POST  - Client ID, Supplier ID, Value e Date são obrigatórios.
+2021-09-07T12:45:44.668Z [store-api] error POST  - O client_id ou supplier_id informado não existe!
+2021-09-07T12:47:55.334Z [store-api] error POST  - ProductRepository.getSupplier is not a function
+2021-09-07T12:48:45.512Z [store-api] error POST  - column "client_id" of relation "products" does not exist
+2021-09-07T12:50:38.105Z [store-api] info POST /sale - {"sale_id":1,"client_id":5,"product_id":2,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:17:00.532Z [store-api] error POST  - Unexpected token , in JSON at position 16
+2021-09-07T13:17:10.908Z [store-api] error POST  - O Client ID ou Product ID informado não existe.O Product ID ou Product ID informado não existe.
+2021-09-07T13:17:38.353Z [store-api] error POST  - O Client ID informado não existe.O Product ID informado não existe.
+2021-09-07T13:18:32.216Z [store-api] info GET /sales
+2021-09-07T13:19:04.480Z [store-api] error PUT  - column "sale_id" does not exist
+2021-09-07T13:19:49.358Z [store-api] error PUT  - column "sale_id" does not exist
+2021-09-07T13:22:32.152Z [store-api] error PUT  - column "sale_id" does not exist
+2021-09-07T13:24:42.402Z [store-api] info PUT /sale - {"sale_id":1,"client_id":5,"product_id":2,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:25:00.830Z [store-api] error PUT  - O Client ID informado não existe.O Product ID informado não existe.
+2021-09-07T13:25:09.528Z [store-api] info PUT /sale - {"sale_id":1,"client_id":5,"product_id":2,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:25:22.635Z [store-api] info GET /sales
+2021-09-07T13:25:27.038Z [store-api] info GET /sale
+2021-09-07T13:25:30.622Z [store-api] info GET /sale
+2021-09-07T13:25:35.946Z [store-api] info DELETE /sale
+2021-09-07T13:25:39.224Z [store-api] info GET /sales
+2021-09-07T13:38:42.399Z [store-api] info GET /clients
+2021-09-07T13:39:01.960Z [store-api] info GET /products
+2021-09-07T13:39:17.932Z [store-api] info POST /sale - {"sale_id":2,"client_id":5,"product_id":3,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:39:38.619Z [store-api] info GET /products
+2021-09-07T13:39:38.773Z [store-api] info GET /products
+2021-09-07T13:39:43.225Z [store-api] info GET /products
+2021-09-07T13:40:01.044Z [store-api] info POST /sale - {"sale_id":3,"client_id":5,"product_id":3,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:40:07.802Z [store-api] info GET /sales
+2021-09-07T13:40:23.879Z [store-api] info GET /products
+2021-09-07T13:40:24.391Z [store-api] info GET /products
+2021-09-07T13:42:19.710Z [store-api] info POST /sale - {"sale_id":4,"client_id":5,"product_id":3,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:42:24.918Z [store-api] info GET /products
+2021-09-07T13:45:04.459Z [store-api] info GET /products
+2021-09-07T13:45:28.222Z [store-api] info PUT /product - {"product_id":2,"supplier_id":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.98","stock":2}
+2021-09-07T13:46:09.690Z [store-api] info POST /sale - {"sale_id":5,"client_id":5,"product_id":2,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:46:12.761Z [store-api] info GET /product
+2021-09-07T13:46:20.748Z [store-api] info POST /sale - {"sale_id":6,"client_id":5,"product_id":2,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T13:46:26.279Z [store-api] info GET /product
+2021-09-07T13:46:30.586Z [store-api] error POST  - O produto informado não ha estoque
+2021-09-07T13:46:32.524Z [store-api] error POST  - O produto informado não ha estoque
+2021-09-07T13:46:33.650Z [store-api] error POST  - O produto informado não ha estoque
+2021-09-07T13:46:34.674Z [store-api] error POST  - O produto informado não ha estoque
+2021-09-07T13:55:26.978Z [store-api] info GET /sales
+2021-09-07T13:55:36.586Z [store-api] error DELETE  - O ID informado não existe!
+2021-09-07T13:55:55.017Z [store-api] info GET /product
+2021-09-07T13:56:03.721Z [store-api] info DELETE /sale
+2021-09-07T13:56:08.638Z [store-api] info GET /product
+2021-09-07T13:56:12.326Z [store-api] info GET /product
+2021-09-07T14:02:49.548Z [store-api] info PUT /sale - undefined
+2021-09-07T14:03:00.914Z [store-api] info GET /sales
+2021-09-07T14:03:15.959Z [store-api] info GET /sales
+2021-09-07T14:03:53.745Z [store-api] info PUT /sale - {"sale_id":2,"client_id":5,"product_id":3,"value":"0.98","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T14:04:00.914Z [store-api] info GET /sales
+2021-09-07T14:04:25.081Z [store-api] info PUT /sale - {"sale_id":2,"client_id":5,"product_id":3,"value":"1.2","date":"2021-07-09T03:00:00.000Z"}
+2021-09-07T14:17:04.100Z [store-api] info GET /sales
+2021-09-07T14:17:28.985Z [store-api] info GET /sales
+2021-09-07T14:17:39.923Z [store-api] info GET /sales
+2021-09-07T14:18:19.247Z [store-api] info GET /sales
+2021-09-07T14:18:26.310Z [store-api] info GET /sales
+2021-09-07T14:18:35.526Z [store-api] info GET /sales
+2021-09-14T02:32:27.869Z [store-api] error GET  - column "clientId" does not exist
+2021-09-14T02:33:19.508Z [store-api] info GET /clients
+2021-09-14T02:33:26.682Z [store-api] info GET /client
+2021-09-14T02:35:16.839Z [store-api] info POST /client - {"clientId":10,"name":"Ivy Santos","cpf":"1111111111111","phone":"11 9999999999","email":"ivy@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}
+2021-09-14T02:35:54.961Z [store-api] error PUT  - Name, CPF, Phone, E-mail e Address são obrigatórios.
+2021-09-14T02:38:50.903Z [store-api] info PUT /client - {"clientId":10,"name":"Zoe Santos","cpf":"999999999","phone":"11 000000000000","email":"zoe@gmail.com","address":"Praça Antonio Pinhero Costa, 54 - Bloco Guaruja - Apto 83 - Vila Gonçalves - São Bernardo do Campo / SP"}
+2021-09-14T02:39:54.029Z [store-api] info DELETE /client
+2021-09-14T02:39:58.087Z [store-api] info GET /clients
+2021-09-14T02:43:32.246Z [store-api] error GET  - column "supplierId" does not exist
+2021-09-14T02:43:59.220Z [store-api] info GET /suppliers
+2021-09-14T02:44:04.585Z [store-api] info GET /supplier
+2021-09-14T02:44:19.926Z [store-api] info GET /supplier
+2021-09-14T02:44:33.142Z [store-api] info GET /supplier
+2021-09-14T02:45:42.359Z [store-api] info POST /suplier - {"supplierId":8,"name":"MPIZ","cnpj":"10.009.010/0001-15","phone":"11 123456789","email":"mpiz@mpiz.com.br","address":"Nois"}
+2021-09-14T02:46:24.851Z [store-api] info GET /suppliers
+2021-09-14T02:47:11.605Z [store-api] info PUT /supplier - {"supplierId":8,"name":"MPIZ","cnpj":"10.009.010/0001-15","phone":"11 123456789","email":"mpiz@mpiz.com.br","address":"Nois na fita"}
+2021-09-14T02:47:20.270Z [store-api] info DELETE /supplier
+2021-09-14T02:47:23.458Z [store-api] info GET /suppliers
+2021-09-14T02:56:23.251Z [store-api] error GET  - column "productId" does not exist
+2021-09-14T02:56:42.906Z [store-api] error GET  - column "desription" does not exist
+2021-09-14T02:57:02.368Z [store-api] info GET /products
+2021-09-14T02:57:10.592Z [store-api] info GET /product
+2021-09-14T02:58:04.390Z [store-api] error PUT  - Product ID, Name, Description, Value, Stock e Supplier ID são obrigatórios.
+2021-09-14T02:59:59.072Z [store-api] error PUT  - O supplier_id informdo existe!
+2021-09-14T03:01:50.859Z [store-api] error PUT  - productId is not defined
+2021-09-14T03:02:33.099Z [store-api] info GET /product
+2021-09-14T03:02:42.062Z [store-api] error GET  - a is not defined
+2021-09-14T03:04:04.866Z [store-api] error GET  - a is not defined
+2021-09-14T03:06:43.837Z [store-api] error GET  - a is not defined
+2021-09-14T03:06:53.671Z [store-api] error POST  - O supplierId informado não existe!
+2021-09-14T03:07:01.354Z [store-api] error GET  - a is not defined
+2021-09-14T03:08:11.347Z [store-api] info GET /products
+2021-09-14T03:08:31.040Z [store-api] info GET /product
+2021-09-14T03:08:37.938Z [store-api] info PUT /product - undefined
+2021-09-14T03:09:36.841Z [store-api] info PUT /product - {"productId":2,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.77","stock":2,"supplierId":6}
+2021-09-14T03:09:44.515Z [store-api] info PUT /product - {"productId":2,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2,"supplierId":6}
+2021-09-14T03:10:23.513Z [store-api] error POST  - O supplierId informado não existe!
+2021-09-14T03:10:27.742Z [store-api] error POST  - O supplierId informado não existe!
+2021-09-14T03:10:37.219Z [store-api] error POST  - Name, Description, Vlue e Supplier ID são obrigatórios.
+2021-09-14T03:11:15.134Z [store-api] info POST /product - {"productId":4,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":6}
+2021-09-14T03:11:20.602Z [store-api] info GET /products
+2021-09-14T03:11:39.175Z [store-api] info DELETE /product
+2021-09-14T03:11:43.020Z [store-api] info GET /products
+2021-09-14T03:12:19.667Z [store-api] error GET  - connect is not a function
+2021-09-14T03:12:33.612Z [store-api] info GET /products
+2021-09-14T03:12:45.954Z [store-api] error DELETE  - update or delete on table "products" violates foreign key constraint "fk_products" on table "sales"
+2021-09-14T03:30:22.577Z [store-api] error GET  - column "client_client_id" does not exist
+2021-09-14T03:38:51.749Z [store-api] error GET  - column "client_client_id" does not exist
