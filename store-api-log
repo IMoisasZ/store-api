@@ -217,3 +217,167 @@
 2021-09-14T15:50:35.110Z [store-api] info GET /sales
 2021-09-14T15:50:42.373Z [store-api] info GET /sales
 2021-09-14T15:51:03.954Z [store-api] info GET /sales
+2021-09-15T01:50:13.168Z [store-api] info GET /sales
+2021-09-15T01:50:41.033Z [store-api] info GET /sales
+2021-09-15T01:50:48.882Z [store-api] info GET /products
+2021-09-15T01:51:02.642Z [store-api] info POST /product - {"productId":5,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":6}
+2021-09-15T01:51:04.074Z [store-api] info POST /product - {"productId":6,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":6}
+2021-09-15T01:51:05.507Z [store-api] info POST /product - {"productId":7,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":6}
+2021-09-15T01:51:11.139Z [store-api] info POST /product - {"productId":8,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":7}
+2021-09-15T01:51:12.470Z [store-api] info POST /product - {"productId":9,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":7}
+2021-09-15T01:51:13.699Z [store-api] info POST /product - {"productId":10,"name":"Espaçador 4588","description":"Produto em nylon","value":"1.98","stock":100,"supplierId":7}
+2021-09-15T01:51:16.470Z [store-api] info GET /products
+2021-09-15T01:51:24.658Z [store-api] info GET /sales
+2021-09-15T01:55:50.944Z [store-api] error POST  - ProductService.createProductInfo is not a function
+2021-09-15T01:57:34.206Z [store-api] error POST  - info is not defined
+2021-09-15T01:59:23.145Z [store-api] error POST  - info is not defined
+2021-09-15T02:00:26.783Z [store-api] error POST  - info is not defined
+2021-09-15T02:02:41.146Z [store-api] error POST  - Cannot create property '_id' on string 'producInfo'
+2021-09-15T02:07:23.249Z [store-api] info POST /produt/info - {"productId":3,"categoria":"Mouse","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"6141555bfa174bcafa0f48b2"}
+2021-09-15T02:07:49.461Z [store-api] error POST  - Cannot create property '_id' on string 'productInfo'
+2021-09-15T02:11:53.071Z [store-api] error POST  - Cannot create property '_id' on string 'productInfo'
+2021-09-15T02:12:30.519Z [store-api] error POST  - Cannot create property '_id' on string 'productInfo'
+2021-09-15T02:15:07.532Z [store-api] error POST  - Cannot create property '_id' on string 'productInfo'
+2021-09-15T02:17:48.372Z [store-api] info POST /produt/info - {"productId":3,"category":"Mouse","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"614157ccef3d24d6818d4611"}
+2021-09-15T02:28:43.889Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:43.915Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:43.921Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.597Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.603Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.783Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.785Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.792Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.812Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.829Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.846Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.851Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.861Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:44.869Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.613Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.619Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.622Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.625Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.628Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.640Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.644Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:45.654Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.698Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.706Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.718Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.725Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.728Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.733Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:46.743Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.620Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.624Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.627Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.630Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.635Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.645Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.648Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.662Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.668Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.768Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.771Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.774Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.777Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.781Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.783Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.785Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.787Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.790Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:47.793Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.604Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.606Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.608Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.612Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.615Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.624Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.626Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.628Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.631Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.636Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.735Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.738Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.741Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.747Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.752Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.754Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.758Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.763Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.765Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.768Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.772Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.774Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.776Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.779Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.784Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.787Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.791Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.793Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.795Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.800Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.802Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.805Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:48.809Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.615Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.618Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.620Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.622Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.624Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.629Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.631Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.634Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.816Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.822Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.825Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.829Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.833Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.838Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:49.842Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:28:50.021Z [store-api] info PUT /product/info - {"productId":2,"supplierId":6,"name":"Espaçador 458","description":"Produto em poliuretano","value":"0.76","stock":2}
+2021-09-15T02:32:11.754Z [store-api] info PUT /product/info - {"productId":3,"category":"Teclado","width":"20cm","heigth":"13cm","depth":"10cm","reviews":[]}
+2021-09-15T02:32:55.993Z [store-api] info POST /product/info - {"productId":3,"category":"Mouse","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"61415b57f75b9c7fbf6032b1"}
+2021-09-15T02:33:22.511Z [store-api] info POST /product/info - {"productId":2,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"61415b72f75b9c7fbf6032b2"}
+2021-09-15T02:33:28.863Z [store-api] info POST /product/info - {"productId":2,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"61415b78f75b9c7fbf6032b3"}
+2021-09-15T02:34:23.235Z [store-api] info PUT /product/info - {"productId":3,"category":"Notebook","width":"40cm","heigth":"20cm","depth":"10cm","reviews":[]}
+2021-09-15T02:43:17.769Z [store-api] info GET /product
+2021-09-15T02:45:50.686Z [store-api] info GET /product
+2021-09-15T03:02:03.679Z [store-api] error POST  - Product ID e Review são obrigatórios!
+2021-09-15T03:02:23.882Z [store-api] error POST  - review is not defined
+2021-09-15T03:06:37.941Z [store-api] error POST  - review is not defined
+2021-09-15T03:08:30.532Z [store-api] error POST  - review is not defined
+2021-09-15T03:10:03.638Z [store-api] error POST  - client is not defined
+2021-09-15T03:23:12.449Z [store-api] error DELETE  - Cannot read property 'id' of undefined
+2021-09-15T03:24:06.870Z [store-api] error DELETE  - Cannot read property 'id' of undefined
+2021-09-15T03:24:09.440Z [store-api] error DELETE  - Cannot read property 'id' of undefined
+2021-09-15T03:24:59.561Z [store-api] error DELETE  - Cannot read property 'id' of undefined
+2021-09-15T03:26:16.021Z [store-api] error DELETE  - Cannot read property 'id' of undefined
+2021-09-15T03:40:38.671Z [store-api] error GET  - invalid input syntax for integer: "info"
+2021-09-15T03:41:05.568Z [store-api] info GET /product/info
+2021-09-15T03:41:48.286Z [store-api] error GET  - ProductInfoRepository.findAll is not a function
+2021-09-15T03:42:37.055Z [store-api] info GET /product/info
+2021-09-15T03:42:48.522Z [store-api] info GET /product/info
+2021-09-15T03:50:47.558Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[],"_id":"61416d975c153c81fca25746"}
+2021-09-15T03:51:16.782Z [store-api] info DELETE /product/5
+2021-09-15T03:51:55.683Z [store-api] info DELETE /product/5
+2021-09-15T03:54:47.229Z [store-api] info DELETE /product/5
+2021-09-15T03:55:55.974Z [store-api] info DELETE /product/5
+2021-09-15T03:57:03.054Z [store-api] info DELETE /product/5
+2021-09-15T03:58:03.841Z [store-api] info DELETE /product/5
+2021-09-15T04:41:57.825Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:42:32.609Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:49:17.142Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:55:09.709Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:55:53.784Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:56:14.157Z [store-api] info GET /products
+2021-09-15T04:56:49.612Z [store-api] info PUT /product/info - {"productId":3,"category":"Micro","width":"40cm","heigth":"20cm","depth":"10cm","reviews":[]}
+2021-09-15T04:59:19.353Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T04:59:48.910Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T05:04:02.713Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T05:06:40.897Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T05:06:50.679Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T05:07:52.052Z [store-api] error POST  - mongoose.connect is not a function
+2021-09-15T05:10:02.021Z [store-api] error POST  - mongoose.connect is not a function
+2021-09-15T05:13:21.956Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}
+2021-09-15T05:14:37.972Z [store-api] info POST /product/info - {"productId":5,"category":"Teclado","width":"15cm","heigth":"20cm","depth":"5cm","reviews":[]}

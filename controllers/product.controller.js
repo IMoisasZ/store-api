@@ -55,10 +55,88 @@ async function updateProduct (req, res, next){
     }
 }
 
+// mongodb
+async function createProductInfo(req, res, next){
+    try{
+        let productInfo = req.body;
+        if(!productInfo.productId){
+            throw new Error("Product ID é obrigatório!");
+        }
+        await ProductService.createProductInfo(productInfo);
+        res.end();
+        logger.info(`POST /product/info - ${JSON.stringify(productInfo)}`)
+    }catch(err){
+        next(err)
+    }
+}
+
+async function updateProductInfo(req, res, next){
+    try{
+        let productInfo = req.body;
+        if(!productInfo.productId){
+            throw new Error("Product ID é obrigatório!");
+        }
+        await ProductService.updateProductInfo(productInfo);
+        res.end();
+        logger.info(`PUT /product/info - ${JSON.stringify(productInfo)}`)
+    }catch(err){
+        next(err)
+    }
+}
+
+async function createReview(req, res, next){
+    try{
+        let params = req.body;
+        if(!params.productId || !params.review){
+            throw new Error("Product ID e Review são obrigatórios!");
+        }
+        await ProductService.createReview(params.review, params.productId);
+        logger.info(`POST /product/review`);
+        res.end();
+    }catch(err){
+        next(err)
+    }
+}
+
+async function deleteReview(req, res, next){
+    try{
+        await ProductService.deleteReview(req.params.id, req.params.index);
+        logger.info(`DELETE /product/${req.params.id/review/req.params.index}`);
+        res.end()
+    }catch(err){
+        next(err)
+    }
+}
+
+async function getProductsInfo(req, res, next){
+    try{
+        res.send(await ProductService.getProductsInfo());
+        logger.info("GET /product/info");
+    }catch(err){
+        next (err);
+    }
+}
+
+async function deleteProductInfo(req, res, next){
+    try{
+        await ProductService.deleteProductInfo(parseInt(req.params.id));
+        logger.info(`DELETE /product/${req.params.id}`);
+        res.end()
+    }catch(err){
+        next(err)
+    }
+}
+
 export default {
     createProduct,
     getProducts,
     getProduct,
     deleteProduct,
-    updateProduct
+    updateProduct,
+    createProductInfo,
+    updateProductInfo,
+    createReview,
+    deleteReview,
+    getProductsInfo,
+    deleteProductInfo
 }
