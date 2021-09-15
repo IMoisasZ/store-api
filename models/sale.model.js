@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize'
 import db from '../repositories/db.js'
 import Client from './client.model.js'
-import Product from './client.model.js'
+import Product from './product.model.js'
 
 const Sale = db.define('sales', {
     saleId: {
@@ -21,6 +21,6 @@ const Sale = db.define('sales', {
 }, { underscored: true });
 
 Sale.belongsTo(Client, { foreignKey: "clientId" });
-Sale.belongsTo(Product, { options: "productId"});
+Sale.belongsTo(Product, { foreignKey: "productId"});
 
 export default Sale;

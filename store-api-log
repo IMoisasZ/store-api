@@ -187,3 +187,33 @@
 2021-09-14T03:12:45.954Z [store-api] error DELETE  - update or delete on table "products" violates foreign key constraint "fk_products" on table "sales"
 2021-09-14T03:30:22.577Z [store-api] error GET  - column "client_client_id" does not exist
 2021-09-14T03:38:51.749Z [store-api] error GET  - column "client_client_id" does not exist
+2021-09-14T13:56:33.580Z [store-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-09-14T14:00:15.245Z [store-api] info POST /sale - {"saleId":7,"value":"50","date":"2021-09-14","clientId":5,"productId":3}
+2021-09-14T14:00:44.925Z [store-api] info GET /sales
+2021-09-14T14:01:40.939Z [store-api] error GET  - invalid input syntax for integer: "id=7"
+2021-09-14T14:01:47.320Z [store-api] info GET /sale
+2021-09-14T14:02:08.569Z [store-api] info DELETE /sale
+2021-09-14T14:02:12.216Z [store-api] info GET /sales
+2021-09-14T14:03:40.484Z [store-api] info PUT /sale - undefined
+2021-09-14T14:04:25.100Z [store-api] info PUT /sale - undefined
+2021-09-14T14:04:55.720Z [store-api] info PUT /sale - null
+2021-09-14T14:06:08.637Z [store-api] info PUT /sale - {"saleId":5,"value":"5.98","date":"2021-07-16","clientId":5,"productId":2}
+2021-09-14T15:21:10.785Z [store-api] error GET  - products is not associated to sales!
+2021-09-14T15:22:07.384Z [store-api] info GET /sales
+2021-09-14T15:24:56.752Z [store-api] info GET /sales
+2021-09-14T15:25:08.210Z [store-api] info GET /sales
+2021-09-14T15:26:19.671Z [store-api] info GET /sale
+2021-09-14T15:27:34.236Z [store-api] info GET /sales
+2021-09-14T15:33:55.390Z [store-api] error PUT  - O Client ID informado não existe.O Product ID informado não existe.
+2021-09-14T15:34:38.010Z [store-api] error PUT  - O Product ID informado não existe.
+2021-09-14T15:34:49.096Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":5,"productId":2}
+2021-09-14T15:35:17.290Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":5,"productId":2}
+2021-09-14T15:35:22.065Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":5,"productId":2}
+2021-09-14T15:35:35.731Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":6,"productId":2}
+2021-09-14T15:35:41.087Z [store-api] error PUT  - O Product ID informado não existe.
+2021-09-14T15:35:49.181Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":6,"productId":2}
+2021-09-14T15:36:07.617Z [store-api] info PUT /sale - {"saleId":5,"value":"7.98","date":"2021-11-16","clientId":6,"productId":2}
+2021-09-14T15:49:58.376Z [store-api] error GET  - column product.supplierID does not exist
+2021-09-14T15:50:35.110Z [store-api] info GET /sales
+2021-09-14T15:50:42.373Z [store-api] info GET /sales
+2021-09-14T15:51:03.954Z [store-api] info GET /sales
